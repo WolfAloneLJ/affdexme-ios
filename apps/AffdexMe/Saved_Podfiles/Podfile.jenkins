@@ -3,7 +3,7 @@ source 'https://github.com/Affectiva/cocoapods-specs.git'
 use_frameworks!
 
 target 'AffdexMe' do
-    pod 'AffdexSDK-iOS', '3.2.1-629'
+    pod 'AffdexSDK-iOS', '3.2.0-616'
 end
 
 post_install do |installer|

@@ -188,6 +188,8 @@
         [self enterSingleFaceMode];
     }
     
+    
+    
     NSDate *now = [NSDate date];
     
     if (nil != self.dateOfLastProcessedFrame)
