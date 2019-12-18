@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1Ft-RU-JxF">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -21,24 +21,21 @@
                         <viewControllerLayoutGuide type="bottom" id="vnk-XW-LYC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gNX-hF-ygK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Za-bm-qkF">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Affectiva_Logo_Clear_Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="p2n-Mw-KMz" userLabel="Affectiva_Logo_Clear_Background">
-                                <rect key="frame" x="132" y="695.66666666666652" width="150" height="28.333333333333371"/>
+                                <rect key="frame" x="259" y="334.5" width="150" height="28.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="p2n-Mw-KMz" secondAttribute="height" multiplier="1161:219" id="0nr-3s-o1O"/>
-                                    <constraint firstAttribute="width" constant="150" id="XdZ-UF-bSc">
-                                        <variation key="widthClass=compact" constant="150"/>
-                                        <variation key="widthClass=regular" constant="250"/>
-                                    </constraint>
+                                    <constraint firstAttribute="width" constant="150" id="XdZ-UF-bSc"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mO8-Ka-BDU" userLabel="Classifier Header View wR">
-                                <rect key="frame" x="0.0" y="0.0" width="736" height="234"/>
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="240"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZZ-SZ-fcc" userLabel="Classifier1 View wR">
                                         <rect key="frame" x="10" y="20" width="248" height="64"/>
@@ -193,7 +190,7 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f3D-aM-2S1" userLabel="Settings View wR">
-                                <rect key="frame" x="670" y="234" width="58" height="178"/>
+                                <rect key="frame" x="670" y="240" width="58" height="178"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgQ-Rs-7wd" userLabel="Settings Button">
                                         <rect key="frame" x="4" y="8" width="50" height="50"/>
@@ -331,7 +328,7 @@
                                 </variation>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HDR-sj-e7X" userLabel="Classifier Header View wC">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="157"/>
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="157"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MCI-Ib-Bke" userLabel="Classifier1 View wC">
                                         <rect key="frame" x="6" y="25" width="144" height="40"/>
@@ -362,19 +359,19 @@
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FKD-k2-3hc" userLabel="Classifier4 View wC">
-                                        <rect key="frame" x="264" y="25" width="144" height="40"/>
+                                        <rect key="frame" x="517" y="25" width="144" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cOU-iI-OlL" userLabel="Classifier5 View wC">
-                                        <rect key="frame" x="264" y="71" width="144" height="40"/>
+                                        <rect key="frame" x="517" y="71" width="144" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HgH-bx-x2N" userLabel="Classifier6 View wC">
-                                        <rect key="frame" x="264" y="117" width="144" height="40"/>
+                                        <rect key="frame" x="517" y="117" width="144" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GpE-xu-wrT" userLabel="Background View wC">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="161"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="667" height="161"/>
                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
@@ -490,7 +487,7 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zN8-qq-5xg" userLabel="Settings View wC">
-                                <rect key="frame" x="348" y="157" width="58" height="178"/>
+                                <rect key="frame" x="601" y="157" width="58" height="178"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKF-jC-1o1" userLabel="Settings Button">
                                         <rect key="frame" x="4" y="8" width="50" height="50"/>
@@ -558,7 +555,7 @@
                                 </variation>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N64-79-ygL" userLabel="Version Label wC">
-                                <rect key="frame" x="10" y="695.33333333333337" width="206" height="29"/>
+                                <rect key="frame" x="10" y="335" width="206" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="EZn-0l-Zwp"/>
                                     <constraint firstAttribute="width" constant="206" id="bIi-ZB-m3B"/>
@@ -718,11 +715,11 @@
                         <viewControllerLayoutGuide type="bottom" id="tNU-X7-V3c"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sui-Lx-vil">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2OV-qO-0Dd">
-                                <rect key="frame" x="315" y="370" width="80" height="36"/>
+                                <rect key="frame" x="314.33333333333331" y="370" width="80" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="56" id="4ai-gZ-2QB">
                                         <variation key="widthClass=regular" constant="80"/>
@@ -750,7 +747,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select up to 6 classifiers." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCq-KR-XIE">
-                                <rect key="frame" x="14" y="30" width="391" height="34"/>
+                                <rect key="frame" x="14" y="30" width="390.33333333333331" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="w06-Pr-Jcu"/>
                                 </constraints>
@@ -769,7 +766,7 @@
                                 </variation>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="0cK-sY-Ybj">
-                                <rect key="frame" x="0.0" y="72" width="415" height="292"/>
+                                <rect key="frame" x="0.0" y="72" width="414.33333333333331" height="292"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="500" id="UGW-ZV-Vds">
                                         <variation key="widthClass=regular" constant="478"/>
@@ -861,7 +858,7 @@
                                     </collectionViewCell>
                                 </cells>
                                 <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderView" id="QK0-mv-4gi" customClass="HeaderCollectionReusableView">
-                                    <rect key="frame" x="0.0" y="0.0" width="415" height="50"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414.33333333333331" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pu-z9-1Gk">
@@ -929,7 +926,7 @@
                                 </connections>
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kH6-FP-TFK">
-                                <rect key="frame" x="0.0" y="49" width="414" height="649"/>
+                                <rect key="frame" x="0.0" y="49" width="667" height="288"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="W2X-eq-UZ7">
                                     <size key="itemSize" width="154" height="154"/>
                                     <size key="headerReferenceSize" width="50" height="35"/>
@@ -945,7 +942,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOn-Id-fYZ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="154" height="18"/>
+                                                    <rect key="frame" x="5" y="0.0" width="144" height="18"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="13" id="JxI-Bb-Msg">
                                                             <variation key="widthClass=compact" constant="18"/>
@@ -972,7 +969,7 @@
                                                     </variation>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f7A-og-Yc4">
-                                                    <rect key="frame" x="11" y="18" width="132" height="132"/>
+                                                    <rect key="frame" x="22" y="25" width="110" height="116"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="64" id="Nlv-Nb-iTl">
                                                             <variation key="widthClass=compact" constant="116"/>
@@ -1066,11 +1063,11 @@
                                     </collectionViewCell>
                                 </cells>
                                 <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderView" id="gld-w3-cVN" customClass="HeaderCollectionReusableView">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="667" height="35"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMS-kn-Oav">
-                                            <rect key="frame" x="8" y="1" width="238" height="33"/>
+                                            <rect key="frame" x="8" y="1" width="491" height="33"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="305" id="AXa-2T-Tps"/>
                                             </constraints>
@@ -1129,7 +1126,7 @@
                                 </connections>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLm-dE-Qrv">
-                                <rect key="frame" x="348" y="710" width="54" height="18"/>
+                                <rect key="frame" x="601" y="349" width="54" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="18" id="FHw-Yy-aNG"/>
                                     <constraint firstAttribute="width" constant="43" id="gVB-pj-fTX">
@@ -1156,7 +1153,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jop-pi-4oS">
-                                <rect key="frame" x="11" y="704" width="91" height="30"/>
+                                <rect key="frame" x="11" y="343" width="91" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="18" id="kTF-TL-K5u">
                                         <variation key="widthClass=compact" constant="30"/>
@@ -1185,7 +1182,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select up to 6 classifiers." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKm-tb-cXT">
-                                <rect key="frame" x="11" y="20" width="391" height="21"/>
+                                <rect key="frame" x="11" y="20" width="644" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
